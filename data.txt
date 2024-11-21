@@ -1,30 +1,31 @@
-hossz:120,szóismétlés:2,kulcsszavak_száma:3,címzettek_száma:1,tárgy:Promóció!,html:True,linkek_száma:2,speciális_karakterek_száma:5,formázás_mennyisége:3,melléklet:True,idő:reggel,feladó:Admin,osztály:reklám,
-hossz:250,szóismétlés:0,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Kérdés,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:1,melléklet:False,idő:dél,feladó:EgyediNév,osztály:valid,
-hossz:340,szóismétlés:4,kulcsszavak_száma:2,címzettek_száma:5,tárgy:Akció!,html:True,linkek_száma:3,speciális_karakterek_száma:7,formázás_mennyisége:5,melléklet:True,idő:este,feladó:Support,osztály:reklám,
-hossz:85,szóismétlés:1,kulcsszavak_száma:0,címzettek_száma:2,tárgy:Fontosinformáció,html:False,linkek_száma:0,speciális_karakterek_száma:1,formázás_mennyisége:0,melléklet:False,idő:reggel,feladó:EgyediNév,osztály:valid,
-hossz:400,szóismétlés:5,kulcsszavak_száma:4,címzettek_száma:7,tárgy:Ingyenespromóció!,html:True,linkek_száma:5,speciális_karakterek_száma:9,formázás_mennyisége:7,melléklet:True,idő:este,feladó:Admin,osztály:reklám,
-hossz:200,szóismétlés:0,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Kérlek,nézdmegezt!,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:2,melléklet:False,idő:dél,feladó:Horgolix,osztály:valid,
-hossz:500,szóismétlés:7,kulcsszavak_száma:5,címzettek_száma:8,tárgy:Újdonságok!,html:True,linkek_száma:4,speciális_karakterek_száma:8,formázás_mennyisége:8,melléklet:True,idő:este,feladó:Support,osztály:reklám,
-hossz:95,szóismétlés:1,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Egyújjavaslat,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:1,melléklet:False,idő:reggel,feladó:EgyediNév,osztály:valid,
-hossz:320,szóismétlés:3,kulcsszavak_száma:3,címzettek_száma:3,tárgy:Hihetetlenkedvezmény!,html:True,linkek_száma:3,speciális_karakterek_száma:6,formázás_mennyisége:6,melléklet:True,idő:este,feladó:Admin,osztály:reklám,
-hossz:180,szóismétlés:0,kulcsszavak_száma:0,címzettek_száma:2,tárgy:Üdvözlünkacsapatban!,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:2,melléklet:False,idő:dél,feladó:Horgolix,osztály:valid,
-hossz:450,szóismétlés:6,kulcsszavak_száma:4,címzettek_száma:6,tárgy:Vásároljmost!,html:True,linkek_száma:4,speciális_karakterek_száma:10,formázás_mennyisége:9,melléklet:True,idő:este,feladó:Support,osztály:reklám,
-hossz:75,szóismétlés:0,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Technikaisegítség,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:0,melléklet:False,idő:reggel,feladó:Support,osztály:valid,
-hossz:300,szóismétlés:4,kulcsszavak_száma:2,címzettek_száma:4,tárgy:Rendkívüliajánlat!,html:True,linkek_száma:2,speciális_karakterek_száma:5,formázás_mennyisége:4,melléklet:True,idő:este,feladó:Admin,osztály:reklám,
-hossz:160,szóismétlés:1,kulcsszavak_száma:0,címzettek_száma:2,tárgy:Ügyfélszolgálativálasz,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:1,melléklet:False,idő:dél,feladó:Horgolix,osztály:valid,
-hossz:280,szóismétlés:3,kulcsszavak_száma:2,címzettek_száma:3,tárgy:Nehagydki!,html:True,linkek_száma:2,speciális_karakterek_száma:4,formázás_mennyisége:5,melléklet:True,idő:este,feladó:Admin,osztály:reklám,
-hossz:140,szóismétlés:0,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Újraitt!,html:False,linkek_száma:0,speciális_karakterek_száma:1,formázás_mennyisége:1,melléklet:False,idő:dél,feladó:EgyediNév,osztály:valid,
-hossz:390,szóismétlés:5,kulcsszavak_száma:3,címzettek_száma:4,tárgy:Vásároljgyorsan!,html:True,linkek_száma:3,speciális_karakterek_száma:7,formázás_mennyisége:6,melléklet:True,idő:este,feladó:Support,osztály:reklám,
-hossz:110,szóismétlés:0,kulcsszavak_száma:0,címzettek_száma:2,tárgy:Projektjavaslat,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:0,melléklet:False,idő:reggel,feladó:EgyediNév,osztály:valid,
-hossz:420,szóismétlés:4,kulcsszavak_száma:5,címzettek_száma:5,tárgy:Akcióahétvégére!,html:True,linkek_száma:4,speciális_karakterek_száma:8,formázás_mennyisége:7,melléklet:True,idő:este,feladó:Admin,osztály:reklám,
-hossz:160,szóismétlés:1,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Technikaiértesítés,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:1,melléklet:False,idő:reggel,feladó:Support,osztály:valid,
-hossz:310,szóismétlés:6,kulcsszavak_száma:3,címzettek_száma:3,tárgy:Nehagydkiazajánlatot!,html:True,linkek_száma:3,speciális_karakterek_száma:5,formázás_mennyisége:6,melléklet:True,idő:este,feladó:Support,osztály:reklám,
-hossz:180,szóismétlés:1,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Üdvözlünkazoldalon!,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:1,melléklet:False,idő:reggel,feladó:Horgolix,osztály:valid,
-hossz:280,szóismétlés:3,kulcsszavak_száma:2,címzettek_száma:3,tárgy:Hihetetlenlehetőség!,html:True,linkek_száma:2,speciális_karakterek_száma:5,formázás_mennyisége:5,melléklet:True,idő:dél,feladó:Admin,osztály:reklám,
-hossz:220,szóismétlés:0,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Frissítettütemterv,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:2,melléklet:False,idő:reggel,feladó:EgyediNév,osztály:valid,
-hossz:470,szóismétlés:5,kulcsszavak_száma:4,címzettek_száma:6,tárgy:Kedvezményekcsakma!,html:True,linkek_száma:5,speciális_karakterek_száma:9,formázás_mennyisége:8,melléklet:True,idő:este,feladó:Support,osztály:reklám,
-hossz:150,szóismétlés:0,kulcsszavak_száma:0,címzettek_száma:2,tárgy:Csapatértekezletrészletei,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:1,melléklet:False,idő:dél,feladó:EgyediNév,osztály:valid,
-hossz:360,szóismétlés:4,kulcsszavak_száma:3,címzettek_száma:5,tárgy:Nehagyjaki!,html:True,linkek_száma:3,speciális_karakterek_száma:6,formázás_mennyisége:6,melléklet:True,idő:dél,feladó:Admin,osztály:reklám,
-hossz:200,szóismétlés:1,kulcsszavak_száma:0,címzettek_száma:1,tárgy:Kérlek,ellenőrizd!,html:False,linkek_száma:0,speciális_karakterek_száma:0,formázás_mennyisége:1,melléklet:False,idő:reggel,feladó:Horgolix,osztály:valid,
-hossz:400,szóismétlés:5,kulcsszavak_száma:4,címzettek_száma:7,tárgy:Töltsdlemost!,html:True,linkek_száma:4,speciális_karakterek_száma:8,formázás_mennyisége:7,melléklet:True,idő:este,feladó:Support,osztály:reklám
-hossz:310,szóismétlés:3,kulcsszavak_száma:2,címzettek_száma:2,tárgy:Nyerjmost!,html:True,linkek_száma:3,speciális_karakterek_száma:6,formázás_mennyisége:5,melléklet:True,idő:délután,feladó:Admin,osztály:reklám
+hossz,szomiszteles,kulcsszavak_szama,cimzettek_szama,targy,html,linkek_szama,specialis_karakterek_szama,formazas_mennyisege,melleklet,ido,felado,osztaly
+120,2,3,1,Promocio!,True,2,5,3,True,reggel,Admin,reklam
+250,0,0,1,Kerdes,False,0,0,1,False,del,Egyedi Nev,valid
+340,4,2,5,Akcio!,True,3,7,5,True,este,Support,reklam
+85,1,0,2,Fontos informacio,False,0,1,0,False,reggel,Egyedi Nev,valid
+400,5,4,7,Ingyenes promocio!,True,5,9,7,True,este,Admin,reklam
+200,0,0,1,Kerlek nezd meg ezt!,False,0,0,2,False,del,Iskola,valid
+500,7,5,8,Ujdonsagok!,True,4,8,8,True,este,Support,reklam
+95,1,0,1,Egy uj javaslat,False,0,0,1,False,reggel,Egyedi Nev,valid
+320,3,3,3,Hihetetlen kedvezmeny!,True,3,6,6,True,este,Admin,reklam
+180,0,0,2,Udvzoelnk a csapatban!,False,0,0,2,False,del,Iskola,valid
+450,6,4,6,Vasarolj most!,True,4,10,9,True,este,Support,reklam
+75,0,0,1,Technikai segitseg,False,0,0,0,False,reggel,Support,valid
+300,4,2,4,Rendkivuli ajanlat!,True,2,5,4,True,este,Admin,reklam
+160,1,0,2,Ugyfelszolgalati valasz,False,0,0,1,False,del,Iskola,valid
+280,3,2,3,Ne hagyd ki!,True,2,4,5,True,este,Admin,reklam
+140,0,0,1,Ujra itt!,False,0,1,1,False,del,Egyedi Nev,valid
+390,5,3,4,Vasarolj gyorsan!,True,3,7,6,True,este,Support,reklam
+110,0,0,2,Projekt javaslat,False,0,0,0,False,reggel,Egyedi Nev,valid
+420,4,5,5,Akcio a hetvegere!,True,4,8,7,True,este,Admin,reklam
+160,1,0,1,Technikai ertesites,False,0,0,1,False,reggel,Support,valid
+310,6,3,3,Ne hagyd ki az ajanlatot!,True,3,5,6,True,este,Support,reklam
+180,1,0,1,Udvzoelnk az oldalon!,False,0,0,1,False,reggel,Iskola,valid
+280,3,2,3,Hihetetlen lehetoseg!,True,2,5,5,True,del,Admin,reklam
+220,0,0,1,Frissitett utamterv,False,0,0,2,False,reggel,Egyedi Nev,valid
+470,5,4,6,Kedvezmenyek csak ma!,True,5,9,8,True,este,Support,reklam
+150,0,0,2,Csapatertkezlet reszletei,False,0,0,1,False,del,Egyedi Nev,valid
+360,4,3,5,Ne hagyja ki!,True,3,6,6,True,del,Admin,reklam
+200,1,0,1,Kerlek ellenorizd!,False,0,0,1,False,reggel,Iskola,valid
+400,5,4,7,Toltsd le most!,True,4,8,7,True,este,Support,reklam
+310,3,2,2,Nyerj most!,True,3,6,5,True,delutan,Admin,reklam
