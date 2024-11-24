@@ -1,16 +1,16 @@
-hossz,szomiszteles,kulcsszavak_szama,cimzettek_szama,targy,html,linkek_szama,specialis_karakterek_szama,formazas_mennyisege,melleklet,ido,felado,osztaly
-200,0,1,1,Aktualis projekt statusza,False,0,0,1,False,reggel,Bela,valid
-240,2,1,2,Termekek es ajanlatok,True,2,3,3,True,delfutan,Eva,reklam
-310,1,0,3,Temajavaslatok,False,0,1,2,False,este,Anna,valid
-420,3,2,4,Csatlakozz a hirlevelunkhoz!,True,3,4,5,True,del,Krisztian,reklam
-180,1,0,1,Rendszerfrissites ertesites,False,0,0,1,False,reggel,Tomi,valid
+hossz,szomiszteles,kulcsszavak_szama,cimzettek_szama,targy,html,linkek_szama,specialis_karakterek_szama,formazas_mennyisege,melleklet,ido,felado
+200,0,1,1,Aktualis projekt statusza,False,0,0,1,False,reggel,Bela
+240,2,1,2,Termekek es ajanlatok,True,2,3,3,True,delfutan,Eva
+310,1,0,3,Temajavaslatok,False,0,1,2,False,este,Anna
+420,3,2,4,Csatlakozz a hirlevelunkhoz!,True,3,4,5,True,del,Krisztian
+180,1,0,1,Rendszerfrissites ertesites,False,0,0,1,False,reggel,Tomi
 330,0,1,3,Szamlazasi ertesites,True,1,1,2,True,este,Maria,reklam
-290,2,1,2,Uj funkcio bevezetes,False,0,0,1,True,del,Zoltan,valid
-400,1,3,5,Fizetesi hatarido,True,2,5,4,True,este,Viktor,reklam
-350,4,2,4,A legujabb ajanlatunk!,True,3,6,5,False,delfutan,Peter,reklam
-310,0,0,3,Kovetkezo talalkozonk reszletei,False,0,1,2,False,reggel,Gabor,valid
-280,1,2,2,Bonusz ajanlat!,True,2,3,4,True,este,Laszlo,reklam
-250,3,1,3,Kepzes indul,False,1,0,2,False,del,Emilia,valid
-420,0,1,5,Felhivas,True,3,2,6,True,este,Marek,reklam
-220,2,1,3,Frissites ertesito,False,0,0,1,False,del,Tunde,valid
-380,4,2,6,Egyedi ajanlat!,True,4,7,6,True,delfutan,Balazs,reklam
+290,2,1,2,Uj funkcio bevezetes,False,0,0,1,True,del,Zoltan
+400,1,3,5,Fizetesi hatarido,True,2,5,4,True,este,Viktor
+350,4,2,4,A legujabb ajanlatunk!,True,3,6,5,False,delfutan,Peter
+310,0,0,3,Kovetkezo talalkozonk reszletei,False,0,1,2,False,reggel,Gabor
+280,1,2,2,Bonusz ajanlat!,True,2,3,4,True,este,Laszlo
+250,3,1,3,Kepzes indul,False,1,0,2,False,del,Emilia
+420,0,1,5,Felhivas,True,3,2,6,True,este,Marek
+220,2,1,3,Frissites ertesito,False,0,0,1,False,del,Tunde
+380,4,2,6,Egyedi ajanlat!,True,4,7,6,True,delfutan,Balazs

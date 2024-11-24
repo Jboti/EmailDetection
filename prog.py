@@ -1,46 +1,59 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import accuracy_score
-
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import classification_report, confusion_matrix
+from scipy.stats import pearsonr
 
 df = pd.read_csv('data.txt', sep=',')
 
-df_new = pd.read_csv('test.txt', sep=',')
+test_df = pd.read_csv('test.txt', sep=',')
 
-print(df.head())
-print(df_new.head())
+label_encoder = LabelEncoder()
 
-# label_encoder = LabelEncoder()
+df['targy'] = label_encoder.fit_transform(df['targy'])
+df['ido'] = label_encoder.fit_transform(df['ido'])
+df['felado'] = label_encoder.fit_transform(df['felado'])
+df['osztaly'] = label_encoder.fit_transform(df['osztaly']) 
 
-# df['targy'] = label_encoder.fit_transform(df['targy'])
-# df['ido'] = label_encoder.fit_transform(df['ido'])
-# df['felado'] = label_encoder.fit_transform(df['felado'])
-# df['osztaly'] = label_encoder.fit_transform(df['osztaly']) 
-
-# df_new['targy'] = label_encoder.transform(df_new['targy'])
-# df_new['ido'] = label_encoder.transform(df_new['ido'])
-# df_new['felado'] = label_encoder.transform(df_new['felado'])
+test_df['targy'] = label_encoder.fit_transform(test_df['targy'])
+test_df['ido'] = label_encoder.fit_transform(test_df['ido'])
+test_df['felado'] = label_encoder.fit_transform(test_df['felado'])
 
 
-# X = df.drop(columns=['osztaly'])
-# y = df['osztaly']
+skala = MinMaxScaler()
+X = skala.fit_transform(df.iloc[:, :-1])
+y = df['osztaly']
 
 
-# # Képzés és tesztelés felosztása
-# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
-# # Modell tréningezése
-# model = GaussianNB()
-# model.fit(X_train, y_train)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25)
 
 
-# # A modellel előrejelzést készítünk
-# X_new = df_new.drop(columns=['osztaly'])  # Az 'osztaly' oszlop itt nincs
-# y_prob = model.predict_proba(X_new)  # Ki akarjuk kérni a valószínűségeket
+modell = MultinomialNB()
+modell.fit(X_train, y_train)
 
-# # A valószínűségeket és a predikciókat kiíratjuk
-# for i, prob in enumerate(y_prob):
-#     predicted_class = label_encoder.inverse_transform([prob.argmax()])[0]
-#     print(f"Row {i+1} - Predicted class: {predicted_class}, Probability: {prob}")
+
+y_pred = modell.predict(X_test)
+print("Osztályozási Jelentés:")
+print(classification_report(y_test, y_pred))
+print("Konfúziós Mátrix:")
+print(confusion_matrix(y_test, y_pred))
+
+
+korrelaciok = []
+for oszlop in df.columns[:-1]:
+    corr, _ = pearsonr(df[oszlop], df['osztaly'])
+    korrelaciok.append((oszlop, corr))
+
+korrelaciok = sorted(korrelaciok, key=lambda x: abs(x[1]), reverse=True)
+
+
+X_test_new = skala.fit_transform(test_df)
+
+probabilities = modell.predict_proba(X_test_new)
+
+print("\nTeszt adatok spam valószínűségei:")
+for i, (email, prob) in enumerate(zip(test_df.values, probabilities)):
+    spam_prob = prob[1]  
+    print(f"Email {i+1}: {spam_prob:.2%} valószínűséggel nem spam")
